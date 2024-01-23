@@ -1,0 +1,39 @@
+.Track {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(256, 256, 0.8);
+    flex-direction: column; /* Updated to column layout */
+    padding: 1rem; /* Added padding for spacing between tracks */
+  }
+  
+  .Track-action {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.05rem;
+    transition: color 0.25s;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+  }
+  
+  .Track-action:hover {
+    color: rgba(165, 265, 265, 0.5);
+  }
+  
+  .Track-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Track-information h3 {
+    margin-bottom: 0.22rem;
+  }
+  
+  .Track-information p {
+    font-size: 0.83rem;
+    font-weight: 300;
+    color: rgba(265, 256, 256, 0.8);
+    padding-bottom:30px;
+  }
+  
